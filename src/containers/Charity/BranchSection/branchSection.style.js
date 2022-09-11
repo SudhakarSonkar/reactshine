@@ -161,6 +161,8 @@ export const ContentWrapper = styled.div`
   }
 
   .content {
+    /* check height for responsive devices */
+    height:35rem;
     width: 650px;
     padding: 80px 86px 77px;
     background-color: ${themeGet('colors.primary', '#ABC9FF')};

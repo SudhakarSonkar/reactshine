@@ -26,7 +26,7 @@ const SectionWrapper = styled.div`
 export const ImageSlider = styled.div`
   max-width: 524px;
   width: 100%;
-  height: 30px;
+  height: 100px;
   display: flex;
   align-items: center;
   flex-wrap: nowrap;
@@ -63,7 +63,7 @@ export const ImageSlider = styled.div`
 `;
 
 export const ImageSlide = styled.div`
-  height: 30px;
+  height: 100px;
   flex-shrink: 0;
   animation: ${slideShow} 20s linear infinite;
 
@@ -71,6 +71,8 @@ export const ImageSlide = styled.div`
     margin: 0 22px;
     transition: all 0.3s ease;
     filter: brightness(0.85);
+    height: 5rem;
+    width: 5rem;
 
     img {
       @media only screen and (max-width: 1360px) {
