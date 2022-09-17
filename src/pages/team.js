@@ -7,18 +7,7 @@ import ResetCSS from "common/assets/css/style";
 import { DrawerProvider } from "common/contexts/DrawerContext";
 import Navbar from "containers/Charity/Navbar";
 import DrawerSection from "containers/Charity/DrawerSection";
-import BannerSection from "containers/Charity/BannerSection";
-import FeatureSection from "containers/Charity/FeatureSection";
-import BranchSection from "containers/Charity/BranchSection";
-import WorkSection from "containers/Charity/WorkSection";
-import MilestoneBlock from "containers/Charity/MilestoneBlock";
-import HumanityBlock from "containers/Charity/HumanityBlock";
-import PromotionBlock from "containers/Charity/PromotionBlock";
-import DonateSection from "containers/Charity/DonateSection";
-import MapSection from "containers/Charity/MapSection";
-import FundraiserSection from "containers/Charity/FundraiserSection";
-import BlogSection from "containers/Charity/BlogSection";
-import ClientBlock from "containers/Charity/ClientBlock";
+import Team from 'containers/Charity/TeamSection';
 import Footer from "containers/Charity/Footer";
 import {
   GlobalStyle,
@@ -26,14 +15,14 @@ import {
   ContentWrapper,
 } from "containers/Charity/charity.style";
 
-const Charity = () => {
+const TeamPage = () => {
   return (
     <ThemeProvider theme={charityTheme}>
       <Fragment>
         {/* Start charity head section */}
         <Head>
           <title>
-            Shine NG | A Non Government Organization Based at Gorakhpur
+            Shine NGO | A Non Government Organization Based at Gorakhpur
           </title>
           <meta
             name="Description"
@@ -84,18 +73,7 @@ const Charity = () => {
             <DrawerSection />
           </DrawerProvider>
           <ContentWrapper>
-            <BannerSection />
-            <FeatureSection />
-            <BranchSection />
-            <WorkSection />
-            <MilestoneBlock />
-            <HumanityBlock />
-            <PromotionBlock />
-            <DonateSection />
-            <MapSection />
-            <FundraiserSection />
-            <BlogSection />
-            <ClientBlock />
+                   <Team/>         
           </ContentWrapper>
           <Footer />
         </CharityWrapper>
@@ -104,4 +82,4 @@ const Charity = () => {
     </ThemeProvider>
   );
 };
-export default Charity;
+export default TeamPage;

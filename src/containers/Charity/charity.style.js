@@ -342,4 +342,106 @@ const ContentWrapper = styled.div`
   overflow: hidden;
 `;
 
-export { GlobalStyle, CharityWrapper, ContentWrapper };
+/* ------------------------------------ */
+// style for section header
+/* ------------------------------------ */
+const SectionHeader = styled.header`
+  text-align: center;
+  padding-bottom: 70px;
+  @media only screen and (max-width: 1440px) {
+    padding-bottom: 56px;
+  }
+  @media only screen and (max-width: 1200px) {
+    padding-bottom: 50px;
+  }
+  @media only screen and (max-width: 991px) {
+    padding-bottom: 40px;
+  }
+  @media only screen and (max-width: 480px) {
+    text-align: left;
+  }
+
+  h5 {
+    color: ${themeGet('colors.link', '#352FD9')};
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 0 0 15px;
+    @media only screen and (max-width: 1200px) {
+      font-size: 14px;
+    }
+    @media only screen and (max-width: 480px) {
+      font-size: 13px;
+    }
+  }
+
+  h2 {
+    color: ${themeGet('colors.heading', '#191919')};
+    font-size: 36px;
+    line-height: 54px;
+    font-weight: 600;
+    margin: 0;
+    @media only screen and (max-width: 1440px) {
+      font-size: 30px;
+      line-height: 46px;
+    }
+    @media only screen and (max-width: 1200px) {
+      font-size: 28px;
+      line-height: 42px;
+    }
+    @media only screen and (max-width: 767px) {
+      font-size: 24px;
+      line-height: 35px;
+    }
+  }
+`;
+
+/* ------------------------------------ */
+// style for circle loader
+/* ------------------------------------ */
+const rotate = keyframes`
+	to {
+		transform: rotate(360deg);
+	}
+`;
+
+const grow = keyframes`
+	50% {
+		transform: scale(1);
+	}
+`;
+
+const CircleLoader = styled.div`
+  animation: ${rotate} 3s linear infinite;
+  width: 50px;
+  height: 50px;
+  flex-shrink: 0;
+  transform-origin: bottom center;
+
+  .circle {
+    animation: ${grow} 1.5s linear infinite;
+    background-color: ${themeGet('colors.primary', '#FDEF00')};
+    border-radius: 50%;
+    display: inline-block;
+    margin: -9px;
+    height: 40px;
+    width: 40px;
+    transform: scale(0);
+
+    &:nth-of-type(2) {
+      animation-delay: 0.75s;
+      background-color: ${themeGet('colors.white', '#ffffff')};
+    }
+  }
+
+  &.alt {
+    .circle {
+      &:nth-of-type(2) {
+        background-color: ${themeGet('colors.heading', '#191919')};
+      }
+    }
+  }
+`;
+
+export { GlobalStyle, CharityWrapper, ContentWrapper,CircleLoader, SectionHeader};
