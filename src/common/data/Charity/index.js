@@ -24,31 +24,37 @@ export const menuItems = [
     label: 'Home',
     path: '#home',
     offset: '81',
+    internal: true
   },
   {
     label: 'About Us',
     path: '#aboutus',
     offset: '100',
+    internal: true
   },
   {
     label: 'Projects',
     path: '#projects',
     offset: '81',
+    internal: true
   },
   {
     label: 'Media',
     path: '#media',
     offset: '81',
+    internal: true
   },
   {
     label: 'Team',
-    path: '#team',
+    path: '/team',
     offset: '81',
+    internal:false
   },
   {
     label: 'Contact',
     path: '#contact',
     offset: '81',
+    internal: true
   },
 ];
 

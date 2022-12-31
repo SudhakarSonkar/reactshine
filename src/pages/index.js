@@ -18,6 +18,7 @@ import DonateSection from "containers/Charity/DonateSection";
 import MapSection from "containers/Charity/MapSection";
 import FundraiserSection from "containers/Charity/FundraiserSection";
 import BlogSection from "containers/Charity/BlogSection";
+import TeamPortfolioSection from "containers/AppModern/TeamPortfoilo";
 import ClientBlock from "containers/Charity/ClientBlock";
 import Footer from "containers/Charity/Footer";
 import {
@@ -96,6 +97,7 @@ const Charity = () => {
             <FundraiserSection />
             <BlogSection />
             <ClientBlock />
+            <TeamPortfolioSection/>
           </ContentWrapper>
           <Footer />
         </CharityWrapper>

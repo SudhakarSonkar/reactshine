@@ -5,6 +5,7 @@ import Drawer from 'common/components/Drawer';
 import Image from 'common/components/Image';
 import { DrawerContext } from 'common/contexts/DrawerContext';
 import InnerWrapper, { SpreadButton } from './drawerSection.style';
+import Link from 'next/link'
 
 import { menuItems } from 'common/data/Charity';
 import heartImage from 'common/assets/image/charity/heart-red.png';
@@ -66,13 +67,13 @@ const DrawerSection = () => {
         >
           {menuItems.map((menu, index) => (
             <li key={`menu_key${index}`}>
-              <AnchorLink
+              {menu.internal? ( <AnchorLink
                 href={menu.path}
                 offset={menu.offset}
                 onClick={handleDrawerToggle}
               >
                 {menu.label}
-              </AnchorLink>
+              </AnchorLink>):<Link href={menu.path}>{menu.label+ "-"}</Link>}
             </li>
           ))}
         </Scrollspy>
