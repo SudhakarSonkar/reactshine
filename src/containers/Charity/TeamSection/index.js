@@ -49,7 +49,7 @@ const Team = () => {
       <Container width="1360px">
         <Fade bottom>
           <SectionHeader>
-            <Heading as="h5" content={title} />
+            {/* <Heading as="h5" content={title} /> */}
             <Heading content={slogan} />
           </SectionHeader>
         </Fade>
