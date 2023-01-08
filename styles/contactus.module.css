@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+.joinBtnDiv{
+  margin-top:7rem;
+  margin-bottom: 2rem;
+}
+.joinBtn{
+  background-color:#25316D;
+  
+  font-size: 16px;
+  border: 0px;
+  border-radius: 5px;
+  padding: 10px 21px;  
+  color: white;
+
+}
+.joinBtn:hover {
+  /* background: rgb(88, 56, 250); */
+  background: #e00032;
+}
+.bodyStart {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  
+  background:white;
+  /* background: rgb(130, 106, 251); */
+}
+.boxMap{
+  display: flex;
+  flex-direction: column;
+  flex-wrap:wrap;
+}
+.container {
+  max-width: 500px;
+  width: 90%;
+  background: #fff;
+  padding: 1.563rem;
+  margin-top: 2rem;
+  /* background: #ABC9FF; */
+  border-radius: 0.5rem; 
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+}
+.container header {
+  font-size: 1.5rem;
+  color: #333;
+  font-weight: 500;
+  text-align: center;
+}
+
+.form .inputbox {
+  width: 100%;
+  margin-top: 20px;
+}
+.inputbox label {
+  color: #333;
+}
+.messagebox {
+    resize:none;
+    min-height: 9rem;
+}
+.form :where(.inputbox input, .inputbox textarea, .select-box) {
+  height: 3.125rem;
+  width: 100%;
+  outline: none;
+  font-size: 1rem;
+  color: #707070;
+  margin-top: 0.5rem;
+  border: 0.063rem solid #ddd;
+  border-radius: 0.375rem;
+  padding: 0 1rem;
+}
+.inputbox input:focus {
+  box-shadow: 0 0.063rem 0 rgba(0, 0, 0, 0.3);
+}
+
+.form button {
+  height: 3.438rem;
+  width: 100%;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-top: 1.875rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  /* background: rgb(130, 106, 251); */
+  background:#25316D;
+}
+.form button:hover {
+  /* background: rgb(88, 56, 250); */
+  background: #e00032;
+}
+.addressContainer{
+    background: #fff;
+    max-width: 550px;
+    width: 100%;
+    padding: 1.563rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+}
+.addEmailCall h4{
+  text-align: center;
+}
+.emailCall{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-around;
+  
+}
+.addIcon{
+  font-size: 3.3rem;
+  color: #68A4C4;
+  border-radius: 50%;
+  padding: 0.5rem;
+  border: 0.125rem dotted #a2cce3;
+}
+.email, .call{
+  max-width:  250px;
+  width: 90%;
+  background: #fff;
+  padding: 25px;
+  /* background: #ABC9FF; */
+  border-radius: 8px;
+  /* -webkit-box-shadow: 0 0 1rem rgb(0 0 0 / 10%);
+  -moz-box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 1rem rgb(0 0 0 / 10%); */
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+}
+
+.addEmailCall{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.iframeClass{
+  height: 25rem;
+  width: 100%;
+}
+.navbar{
+  position: relative;
+}
+/*Responsive*/
+@media screen and (max-width:1114px){
+  .bodyStart{
+    display: flex;
+    /* margin-top: 12rem; */
+    flex-direction: column;
+    align-items: center;
+  }
+ .addressContainer{
+  margin: 1.5rem auto;
+  width: 90%;
+ }
+ .emailCall{
+  margin-top: 2rem;
+ }
+ .map{
+  /* margin-top: 20rem; */
+ }
+}
+@media screen and (max-width: 530px) {
+  .form .column {
+    flex-wrap: wrap;
+  }
+  .emailCall{
+    flex-direction: column;
+    align-items: center;
+  }
+  .form :where(.gender-option, .gender) {
+    row-gap: 1rem;
+  }
+  .call{
+    margin-top: 2rem;
+  }
+}        
