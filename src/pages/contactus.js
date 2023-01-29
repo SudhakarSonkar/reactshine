@@ -18,6 +18,9 @@ import {
     CharityWrapper,
     ContentWrapper,
 } from "containers/Charity/charity.style";
+
+
+import BlockWrapper, {ImageWrapper} from '../containers/Charity/PromotionBlock/promotionBlock.style';
 import NextImage from "common/components/NextImage";
 import contactGirl from "common/assets/image/contactPageImg/undraw_contact_us_re_1.svg";
 import addressGirl from "common/assets/image/contactPageImg/undraw_directions_re_kjxs.svg";
@@ -207,7 +210,9 @@ const contactus = () => {
                                         </div>
                                     </div>
                                 </section>
-                                <NextImage src={addressGirl} className={styles.contactGirl} width="400px"/>
+                                <ImageWrapper>
+                                    <NextImage src={addressGirl} className={styles.contactGirl} width="400px"/>    
+                                </ImageWrapper>
                             </div>
                             </center>
                         </div>
