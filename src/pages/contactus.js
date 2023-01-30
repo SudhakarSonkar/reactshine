@@ -1,5 +1,5 @@
-import React, { Fragment } from "react";
-import { useState, useEffect } from "react";
+import React, { Fragment} from "react";
+import { useState, useEffect, useRef  } from "react";
 import Head from "next/head";
 import Sticky from "react-stickynode";
 import { ThemeProvider } from "styled-components";
@@ -31,6 +31,38 @@ const contactus = () => {
     const [formErrors, setFormErrors] = useState({});
     const [isSubmit, setIsSubmit] = useState(false);
 
+    const [imgDim, setImgDim] = useState(["400","500"]);
+
+    const [windowSize, setWindowSize] = useState([
+        1396,
+        685,
+      ]);
+    
+      useEffect(() =>{
+        setWindowSize([window.innerWidth, window.innerHeight]);
+      })
+      useEffect(() => {
+        const handleWindowResize = () => {
+          setWindowSize([window.innerWidth, window.innerHeight]);
+         
+        };
+        window.addEventListener('resize', handleWindowResize);
+        return () => {
+          window.removeEventListener('resize', handleWindowResize);
+        };
+      });
+
+      useEffect(()=>{
+        if(windowSize[0]<700)
+        {
+          setImgDim(["250","400"])
+        }
+        if(windowSize[0]>700)
+        {
+          setImgDim(["400","500"])
+
+        }
+      },[windowSize[0]])
     const handleChange = (e) => {
         const { name, value } = e.target;
         setFormValues({ ...formValues, [name]: value });
@@ -140,7 +172,7 @@ const contactus = () => {
                                     <header>Contact Us</header>
                                     <form onSubmit={handleSubmit} className={styles.form}>
                                     <div className={styles.inputbox}>
-                                        {/* <label>Name</label> */}
+            
                                         <input
                                         type="text"
                                         name="username"
@@ -211,7 +243,7 @@ const contactus = () => {
                                     </div>
                                 </section>
                                 <ImageWrapper>
-                                    <NextImage src={addressGirl} className={styles.contactGirl} width="400px"/>    
+                                    <NextImage src={addressGirl} className={styles.contactGirl} width={imgDim[0]} height={imgDim[1]}/>    
                                 </ImageWrapper>
                             </div>
                             </center>
