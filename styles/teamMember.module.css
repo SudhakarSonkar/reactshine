@@ -1,0 +1,327 @@
+#team {
+  font-family: Nunito, sans-serif;
+}
+
+.text_blk {
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  line-height: 25px;
+}
+
+.responsive_container_block {
+  min-height: 75px;
+  height: fit-content;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
+  justify-content: flex-start;
+}
+
+.container_block {
+  min-height: 75px;
+  height: fit-content;
+  width: 100%;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  display: block;
+}
+
+.responsive_cell_block {
+  min-height: 75px;
+}
+
+.container {
+  max-width: 1380px;
+  margin-top: 80px;
+  margin-right: auto;
+  margin-bottom: 80px;
+  margin-left: auto;
+  padding-top: 0px;
+  padding-right: 30px;
+  padding-bottom: 0px;
+  padding-left: 30px;
+}
+
+.team_head_text {
+  font-size: 48px;
+  line-height: 50px;
+  font-weight: 900;
+  text-align: center;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 70px;
+  margin-left: 0px;
+}
+
+.name {
+  font-size: 18px;
+  margin-top: 11px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  font-weight: 700;
+}
+
+.position {
+  margin-top: 5px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+}
+
+.team_card_container {
+  width: 263px;
+  margin-top: 0px;
+  margin-right: 15px;
+  margin-bottom: 30px;
+  margin-left: 15px;
+}
+
+.teamcard_container {
+  justify-content: space-evenly;
+}
+
+.team_img_wrapper {
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+
+.team_img {
+  max-width: 100%;
+}
+
+@media (max-width: 500px) {
+  .team_card_container {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 30px;
+    margin-left: 0px;
+    width: 100%;
+  }
+
+  .team_img {
+    width: 100%;
+  }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800&amp;display=swap');
+
+#team,
+#team:before,
+#team:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body #team {
+  margin: 0;
+}
+
+.wk_desk_1 {
+  width: 8.333333%;
+}
+
+.wk_desk_2 {
+  width: 16.666667%;
+}
+
+.wk_desk_3 {
+  width: 25%;
+}
+
+.wk_desk_4 {
+  width: 33.333333%;
+}
+
+.wk_desk-5 {
+  width: 41.666667%;
+}
+
+.wk_desk_6 {
+  width: 50%;
+}
+
+.wk_desk_7 {
+  width: 58.333333%;
+}
+
+.wk_desk_8 {
+  width: 66.666667%;
+}
+
+.wk_desk_9 {
+  width: 75%;
+}
+
+.wk_desk_10 {
+  width: 83.333333%;
+}
+
+.wk_desk_11 {
+  width: 91.666667%;
+}
+
+.wk_desk_12 {
+  width: 100%;
+}
+
+@media (max-width: 1024px) {
+  .wk_ipadp_1 {
+    width: 8.333333%;
+  }
+
+  .wk_ipadp_2 {
+    width: 16.666667%;
+  }
+
+  .wk_ipadp_3 {
+    width: 25%;
+  }
+
+  .wk_ipadp_4 {
+    width: 33.333333%;
+  }
+
+  .wk_ipadp_5 {
+    width: 41.666667%;
+  }
+
+  .wk_ipadp_6 {
+    width: 50%;
+  }
+
+  .wk_ipadp_7 {
+    width: 58.333333%;
+  }
+
+  .wk_ipadp_8 {
+    width: 66.666667%;
+  }
+
+  .wk_ipadp_9 {
+    width: 75%;
+  }
+
+  .wk_ipadp_10 {
+    width: 83.333333%;
+  }
+
+  .wk_ipadp_11 {
+    width: 91.666667%;
+  }
+
+  .wk_ipadp_12 {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .wk_tab_1 {
+    width: 8.333333%;
+  }
+
+  .wk_tab_2 {
+    width: 16.666667%;
+  }
+
+  .wk_tab_3 {
+    width: 25%;
+  }
+
+  .wk_tab_4 {
+    width: 33.333333%;
+  }
+
+  .wk_tab_5 {
+    width: 41.666667%;
+  }
+
+  .wk_tab_6 {
+    width: 50%;
+  }
+
+  .wk_tab_7 {
+    width: 58.333333%;
+  }
+
+  .wk_tab_8 {
+    width: 66.666667%;
+  }
+
+  .wk_tab_9 {
+    width: 75%;
+  }
+
+  .wk_tab_10 {
+    width: 83.333333%;
+  }
+
+  .wk_tab_11 {
+    width: 91.666667%;
+  }
+
+  .wk_tab_12 {
+    width: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  .wk_mobile_1 {
+    width: 8.333333%;
+  }
+
+  .wk_mobile_2 {
+    width: 16.666667%;
+  }
+
+  .wk_mobile_3 {
+    width: 25%;
+  }
+
+  .wk_mobile_4 {
+    width: 33.333333%;
+  }
+
+  .wk_mobile_5 {
+    width: 41.666667%;
+  }
+
+  .wk_mobile_6 {
+    width: 50%;
+  }
+
+  .wk_mobile_7 {
+    width: 58.333333%;
+  }
+
+  .wk_mobile_8 {
+    width: 66.666667%;
+  }
+
+  .wk_mobile_9 {
+    width: 75%;
+  }
+
+  .wk_mobile_10 {
+    width: 83.333333%;
+  }
+
+  .wk_mobile_11 {
+    width: 91.666667%;
+  }
+
+  .wk_mobile_12 {
+    width: 100%;
+  }
+}
