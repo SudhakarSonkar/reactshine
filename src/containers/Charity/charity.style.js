@@ -181,6 +181,12 @@ const CharityWrapper = styled.div`
       }
     }
   }
+  .navbar-inherit  {
+    position: inherit;
+    &::before {
+      display: none;
+    }
+  }
 
   .sticky-nav-active {
     .navbar {

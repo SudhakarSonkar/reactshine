@@ -7,10 +7,18 @@ import NavbarWrapper, { MenuWrapper, Button } from './navbar.style';
 
 import logoImage from 'common/assets/image/charity/logo.png';
 import heartImage from 'common/assets/image/charity/heart-red.png';
+import { useRouter } from "next/dist/client/router";
 
+const  include_list = ['/']
 const Navbar = () => {
+  let overRide=false;
+  let {pathname} = useRouter()
+  if(!include_list.includes(pathname)){
+    overRide = true
+    console.log(pathname);
+  }
   return (
-    <NavbarWrapper className="navbar">
+    <NavbarWrapper className={overRide? 'navbar navbar-inherit':'navbar'}>
       <Container fullWidth={true}>
         <Logo
           href="/charity"

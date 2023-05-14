@@ -23,15 +23,18 @@ import ResetCSS from "common/assets/css/style";
 import Navbar from "containers/Charity/Navbar";
 
 export default function CustomApp({ Component, pageProps }) {
-  console.log(Component);
+
   return (
     <ThemeProvider theme={charityTheme}>
       <Modal>
         <ResetCSS />
         <GlobalStyle />
         <CharityWrapper>
-          <Sticky top={0} innerZ={9999} activeClass="sticky-nav-active">
-            <Navbar/>
+          <Sticky shouldFreeze={()=>{
+            console.log('')
+            return false
+          }} top={0} innerZ={9999} activeClass="sticky-nav-active">
+            <Navbar />
           </Sticky>
           <DrawerProvider>
             <DrawerSection />

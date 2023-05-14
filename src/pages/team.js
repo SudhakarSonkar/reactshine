@@ -5,10 +5,13 @@ import styles from "../../styles/teamMember.module.css";
 import Footer from "containers/Charity/Footer";
 import styled from "styled-components";
 import clsx from "clsx";
+import { Row, Col } from "@bootstrap-styled/v4";
+import Image from 'next/image';
 
-const DivTile = styled.div`
-  /* Adapt the colors based on primary prop */
-  dislplay: flex;
+const StyledCol = styled(Col)`
+  display: flex;
+  align-items: center;
+  flex-direction:column;
 `;
 
 import teamMember from "../common/data/charity/team.json";
@@ -32,26 +35,26 @@ const TeamPage = () => {
       {/* <ContentWrapper style={{ marginTop: "2%" }}> */}
       <div className={clsx(styles.container_block, styles.container)} id="team">
         <p className={clsx(styles.text_blk, styles.team_head_text)}>Our Team</p>
-        <DivTile>
+        <Row>
           {teamMember &&
-            teamMember.map((member) => (
-              <div>
+            teamMember.map(({image,name,designation}) => (
+              <StyledCol lg="3" xs="12" >
                 <div>
-                  <div>
-                    <div>
-                      <div>
-                        <img src={member.image} />
-                      </div>
-                      <div>
-                        <p>{member.name}</p>
-                        <p>{member.designation}</p>
-                      </div>
-                    </div>
-                  </div>
+                  
+                  <Image
+                   src={image} 
+                   width={500}
+                   height={500}
+                   alt={name}
+                   />
                 </div>
-              </div>
+                <div>
+                  <p>{name}</p>
+                  <p>{designation}</p>
+                </div>
+              </StyledCol>
             ))}
-        </DivTile>
+        </Row>
       </div>
       {/* </ContentWrapper> */}
     </Fragment>
