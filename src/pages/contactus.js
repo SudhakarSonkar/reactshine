@@ -10,9 +10,6 @@ import Navbar from "containers/Charity/Navbar";
 import DrawerSection from "containers/Charity/DrawerSection";
 import Footer from "containers/Charity/Footer";
 import styles from "../../styles/contactus.module.css";
-import {TiLocationOutline} from 'react-icons/Ti'; 
-import {FiMail} from 'react-icons/Fi';
-import {BiPhoneCall} from 'react-icons/Bi';
 import {
     GlobalStyle,
     CharityWrapper,
@@ -156,7 +153,6 @@ const contactus = () => {
                 {/* Start charity wrapper section */}
                 <CharityWrapper>
                     <Sticky top={0} innerZ={9999} activeClass="sticky-nav-active">
-                        <Navbar />
                     </Sticky>
                     <DrawerProvider>
                         <DrawerSection />
@@ -223,7 +219,7 @@ const contactus = () => {
                             <div className={styles.section2}>
                                 <section className={styles.addEmailCall}>
                                     <div className={styles.addressContainer}>
-                                        <TiLocationOutline className={styles.addIcon}/>                                
+                                        {/* <TiLocationOutline className={styles.addIcon}/>                                 */}
                                         <h4>
                                             Our Address
                                         </h4>
@@ -231,12 +227,12 @@ const contactus = () => {
                                     </div>
                                     <div className={styles.emailCall}>
                                         <div className={styles.email}>
-                                            <FiMail className={styles.addIcon}/>
+                                            {/* <FiMail className={styles.addIcon}/> */}
                                             <h4>Email Us</h4>
                                             <p>shinengoindia@gmail.com</p>
                                         </div>
                                         <div className={styles.call}>
-                                            <BiPhoneCall className={styles.addIcon}/>
+                                            {/* <BiPhoneCall className={styles.addIcon}/> */}
                                             <h4>Call Us</h4>
                                             <p>+91 84002 55888</p>
                                         </div>
