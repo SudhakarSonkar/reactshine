@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
-.joinBtnDiv{
-  margin-top:7rem;
+/* .joinBtnDiv{
+  
   margin-bottom: 2rem;
 }
 .joinBtn{
@@ -14,31 +14,37 @@
 
 }
 .joinBtn:hover {
-  /* background: rgb(88, 56, 250); */
   background: #e00032;
-}
+} */
 .bodyStart {
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  flex-direction: column;
+  /* justify-content: space-around; */
   
   background:white;
   /* background: rgb(130, 106, 251); */
 }
+.section1, .section2{
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  justify-content: space-around;
+}
 .boxMap{
+  margin-top:7rem;
   display: flex;
   flex-direction: column;
   flex-wrap:wrap;
 }
 .container {
-  max-width: 500px;
-  width: 90%;
+  max-width: 600px;
+  width: 100%;
   background: #fff;
   padding: 1.563rem;
   margin-top: 2rem;
   /* background: #ABC9FF; */
-  border-radius: 0.5rem; 
-  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+  /* border-radius: 0.5rem; 
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3); */
 }
 .container header {
   font-size: 1.5rem;
@@ -95,9 +101,9 @@
     background: #fff;
     max-width: 550px;
     width: 100%;
-    padding: 1.563rem;
+    /* padding: 1.563rem; */
     border-radius: 0.5rem;
-    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+    /* box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3); */
 }
 .addEmailCall h4{
   text-align: center;
@@ -119,13 +125,10 @@
   max-width:  250px;
   width: 90%;
   background: #fff;
-  padding: 25px;
+  /* padding: 25px; */
   /* background: #ABC9FF; */
   border-radius: 8px;
-  /* -webkit-box-shadow: 0 0 1rem rgb(0 0 0 / 10%);
-  -moz-box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
-  box-shadow: 0 0 1rem rgb(0 0 0 / 10%); */
-  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+
 }
 
 .addEmailCall{
@@ -144,22 +147,19 @@
 }
 /*Responsive*/
 @media screen and (max-width:1114px){
-  .bodyStart{
-    display: flex;
-    /* margin-top: 12rem; */
-    flex-direction: column;
-    align-items: center;
-  }
  .addressContainer{
   margin: 1.5rem auto;
   width: 90%;
  }
  .emailCall{
   margin-top: 2rem;
- }
- .map{
-  /* margin-top: 20rem; */
- }
+ } 
+}
+@media  screen and (max-width:700px) {
+  .section1, .section2{
+    display: flex;
+    flex-direction: column;
+  }
 }
 @media screen and (max-width: 530px) {
   .form .column {
