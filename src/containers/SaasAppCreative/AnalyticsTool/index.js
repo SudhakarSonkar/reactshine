@@ -7,8 +7,10 @@ import Link from 'common/components/Link';
 import Heading from 'common/components/Heading';
 import Section, { Grid, FigureGroup, Content } from './analytics.style';
 import rightArrow from 'common/assets/image/saasAppCreative/icons/right-arrow.svg';
-import graph1 from 'common/assets/image/saasAppCreative/graph1.png';
-import graph2 from 'common/assets/image/saasAppCreative/graph2.png';
+
+import graph1 from 'common/assets/image/charity/banner/team3.png';
+import graph2 from 'common/assets/image/charity/banner/team2.png';
+
 
 const AnalyticsTool = () => {
   return (
@@ -26,16 +28,12 @@ const AnalyticsTool = () => {
             </div>
           </FigureGroup>
           <Content>
-            <Text className="subtitle" content="Audience Monitoring" />
-            <Heading content="Advanced analytics tools to keep you in control &amp; customizable" />
+            <Text className="subtitle" content="Who We Are?" />
+            {/* <Heading content="Advanced analytics tools to keep you in control &amp; customizable" /> */}
             <Text
               className="description"
-              content="Pick one of our stock themes, or create your custom theme with the most advanced theme editor on any online survey building tool. Create professional ads, branded content, and stunning stories in minutes."
+              content="Shine Educational and Welfare Society started as a camp meant for encouraging education, providing financial support and establishing a good society. The aim got streamlined to make Education Hut centres all round the villages. Along with that we do work for upliftment of women in all spheres and general financial aid that we try to collect for someone in actual need. Fortunately, there were many people like us who joined us in the way and today we are a big family of 125 volunteers all round the country."
             />
-            <Link href="#" className="explore">
-              Explore details
-              <img src={rightArrow?.src} alt="right arrow icon" />
-            </Link>
           </Content>
         </Grid>
       </Container>

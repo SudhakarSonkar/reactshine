@@ -355,13 +355,13 @@ export const pricing = {
 /* ------------------------------------ */
 // Team Portfolio data section
 /* ------------------------------------ */
-import member1 from 'common/assets/image/appModern/1.png';
-import member2 from 'common/assets/image/appModern/2.png';
-import member3 from 'common/assets/image/appModern/3.png';
-import member4 from 'common/assets/image/appModern/4.png';
-import member5 from 'common/assets/image/appModern/5.png';
-import member6 from 'common/assets/image/appModern/6.png';
-import member7 from 'common/assets/image/appModern/7.png';
+import member1 from 'common/assets/image/charity/hometeam/shamshad.jpg';
+import member2 from 'common/assets/image/charity/hometeam/rishabh.jpg';
+import member3 from 'common/assets/image/charity/hometeam/aman.jpg';
+import member4 from 'common/assets/image/charity/hometeam/prashansa.jpg';
+import member5 from 'common/assets/image/charity/hometeam/archit.jpg';
+import member6 from 'common/assets/image/charity/hometeam/vishal.jpg';
+import member7 from 'common/assets/image/charity/hometeam/arjun.jpg';
 
 export const teamportfolio = {
   title: 'Meet our awesome team members, work behind the sense',
@@ -372,37 +372,37 @@ export const teamportfolio = {
     {
       id: 1,
       img: member1,
-      text: 'Berlin Corleone',
+      text: 'Shamshad Alam',
     },
     {
       id: 2,
       img: member2,
-      text: 'Jona White',
+      text: 'Rishabh Sharma',
     },
     {
       id: 3,
       img: member3,
-      text: 'Michael Price',
+      text: 'Aman Gupta',
     },
     {
       id: 4,
       img: member4,
-      text: 'Gullyboy Rana',
+      text: 'Prashansa Sachan',
     },
     {
       id: 5,
       img: member5,
-      text: 'Miss Clair',
+      text: 'Archit Tripathi',
     },
     {
       id: 6,
       img: member6,
-      text: 'Bucky Ali',
+      text: 'Vishal Deep Maurya',
     },
     {
       id: 7,
       img: member7,
-      text: 'Arthus Doe',
+      text: 'Arjun Sharma',
     },
   ],
 };

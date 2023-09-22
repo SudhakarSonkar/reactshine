@@ -1,51 +1,266 @@
 [
     {
         "id": 1,
-        "name": "sudhakar",
-        "designation": "developer",
-        "image":"https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/ft12.svg"
+        "name": "Shamshad Alam",
+        "designation": "President and Founder",
+        "image":"charity/team/shamshad.jpeg"
     },
     {
         "id": 2,
-        "name": "rana",
-        "designation": "God",
-        "image":"https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/ft12.svg"
+        "name": "Prashansa Sachan",
+        "designation": "Vice-President",
+        "image":"charity/team/prashansa.jpeg"
     },
     {
         "id": 3,
-        "name": "rana",
-        "designation": "God",
-        "image":"https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/ft12.svg"
+        "name": "Arjun Sharma",
+        "designation": "Manager",
+        "image":"charity/team/arjun.jpeg"
     },
     {
         "id": 4,
-        "name": "rana",
-        "designation": "God",
-        "image":"https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/ft12.svg"
+        "name": "Vishal Deep Maurya",
+        "designation": "Advisor and Content Curator",
+        "image":"charity/team/vishal.jpeg"
     },
     {
         "id": 5,
-        "name": "sudhakar",
-        "designation": "developer",
-        "image":"https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/ft12.svg"
+        "name": "Rishabh Sharma",
+        "designation": "Dupty Manager",
+        "image":"charity/team/rishabh.jpeg"
     },
     {
         "id": 6,
-        "name": "rana",
-        "designation": "God",
-        "image":"https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/ft12.svg"
+        "name": "Aman Gupta",
+        "designation": "Co-Ordinator",
+        "image":"charity/team/aman.jpg"
     },
     {
         "id": 7,
-        "name": "rana",
-        "designation": "God",
-        "image":"https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/ft12.svg"
+        "name": "Vinay Sharma",
+        "designation": "Volunteer",
+        "image":"charity/team/vinay.jpeg"
     },
     {
         "id": 8,
-        "name": "rana",
-        "designation": "God",
-        "image":"https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/ft12.svg"
+        "name": "Shivam Madhesiya",
+        "designation": "Volunteer",
+        "image":"charity/team/shivam.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Mohd Saif",
+        "designation": "Volunteer",
+        "image":"charity/team/mdsaif.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Mohtashim Ansari",
+        "designation": "Volunteer",
+        "image":"charity/team/mohtashim.jpg"
+    },
+    {
+        "id": 11,
+        "name": "Nandan Mishra",
+        "designation": "Volunteer",
+        "image":"charity/team/nandan.jpg"
+    },
+    {
+        "id": 12,
+        "name": "Mohd. Hassan",
+        "designation": "Volunteer",
+        "image":"charity/team/hassan.jpg"
+    },
+    {
+        "id": 13,
+        "name": "Aftab Alam",
+        "designation": "Volunteer",
+        "image":"charity/team/aftab.jpg"
+    },
+    {
+        "id": 14,
+        "name": "Vaibhav Sharma",
+        "designation": "Volunteer",
+        "image":"charity/team/vaibhav.jpg"
+    },
+    {
+        "id": 15,
+        "name": "Abdul Kareem",
+        "designation": "Volunteer",
+        "image":"charity/team/abdul.jpg"
+    },
+    {
+        "id": 16,
+        "name": "Vyom Srivastava",
+        "designation": "Volunteer",
+        "image":"charity/team/yuom.jpg"
+    },
+    {
+        "id": 17,
+        "name": "Deepak Yadav",
+        "designation": "Volunteer",
+        "image":"charity/team/deepak.jpg"
+    },
+    {
+        "id": 18,
+        "name": "Rudramani Singh",
+        "designation": "Volunteer",
+        "image":"charity/team/rudramani.jpeg"
+    },
+    {
+        "id": 19,
+        "name": "Amit Kumar",
+        "designation": "Volunteer",
+        "image":"charity/team/amit.jpg"
+    },
+    {
+        "id": 20,
+        "name": "Manish Kumar Rao",
+        "designation": "Volunteer",
+        "image":"charity/team/manish.jpg"
+    },
+    {
+        "id": 21,
+        "name": "Anurag Sonkar",
+        "designation": "Volunteer",
+        "image":"charity/team/anurag.jpg"
+    },
+    {
+        "id": 22,
+        "name": "Lakshmi Narayan Verma",
+        "designation": "Volunteer",
+        "image":"charity/team/lnv.jpg"
+    },
+    {
+        "id": 23,
+        "name": "Akash Patel",
+        "designation": "Volunteer",
+        "image":"charity/team/akash.jpg"
+    },
+    {
+        "id": 24,
+        "name": "Swarnim Dixit",
+        "designation": "Volunteer",
+        "image":"charity/team/swarnim.jpg"
+    },
+    {
+        "id": 25,
+        "name": "Pranjal Sachan",
+        "designation": "Volunteer",
+        "image":"charity/team/pranjal.jpeg"
+    },
+    {
+        "id": 26,
+        "name": "Pradumnya Yadav",
+        "designation": "Volunteer",
+        "image":"charity/team/pradyumna.jpg"
+    },
+    {
+        "id": 27,
+        "name": "Ziya Firdous",
+        "designation": "Volunteer",
+        "image":"charity/team/ziya.jpg"
+    },
+    {
+        "id": 28,
+        "name": "Anshika Srivastava",
+        "designation": "Volunteer",
+        "image":"charity/team/anshika.jpeg"
+    },
+    {
+        "id": 29,
+        "name": "Avinash Pathak",
+        "designation": "Volunteer",
+        "image":"charity/team/avinash.jpg"
+    },
+    {
+        "id": 30,
+        "name": "Mohd Aman Ansari",
+        "designation": "Volunteer",
+        "image":"charity/team/amanansari.jpg"
+    },
+    {
+        "id": 31,
+        "name": "Neha Pandey",
+        "designation": "Volunteer",
+        "image":"charity/team/neha.jpeg"
+    },
+    {
+        "id": 32,
+        "name": "Shaiza Rafeeq",
+        "designation": "Volunteer",
+        "image":"charity/team/shaiza.jpeg"
+    },
+    {
+        "id": 33,
+        "name": "Archit Tripathi",
+        "designation": "Volunteer",
+        "image":"charity/team/archit.jpeg"
+    },
+    {
+        "id": 34,
+        "name": "Aman Sharma",
+        "designation": "Volunteer",
+        "image":"charity/team/amansharma.jpeg"
+    },
+    {
+        "id": 35,
+        "name": "Supriya Mishra",
+        "designation": "Volunteer",
+        "image":"charity/team/supriya.jpg"
+    },
+    {
+        "id": 36,
+        "name": "Vaishnavi Tripathi",
+        "designation": "Volunteer",
+        "image":"charity/team/vaishnavi.jpg"
+    },
+    {
+        "id": 37,
+        "name": "Afsha Hanfi",
+        "designation": "Volunteer",
+        "image":"charity/team/afsa.jpg"
+    },
+    {
+        "id": 38,
+        "name": "Mohammad Saif",
+        "designation": "Volunteer",
+        "image":"charity/team/nsaif.jpg"
+    },
+    {
+        "id": 39,
+        "name": "Maitreyaei Upadhyay",
+        "designation": "Volunteer",
+        "image":"charity/team/maiteri.jpeg"
+    },
+    {
+        "id": 40,
+        "name": "Ranu Chaurasiya",
+        "designation": "Volunteer",
+        "image":"charity/team/ranu.jpg"
+    },
+    {
+        "id": 41,
+        "name": "Rahul Jaiswal",
+        "designation": "Volunteer",
+        "image":"charity/team/rahul.jpg"
+    },
+    {
+        "id": 42,
+        "name": "Mohammad Saif",
+        "designation": "Volunteer",
+        "image":"charity/team/saifmd.jpg"
+    },
+    {
+        "id": 43,
+        "name": "Avnish Arya",
+        "designation": "Volunteer",
+        "image":"charity/team/avnish.jpg"
+    },
+    {
+        "id": 44,
+        "name": "Nidhi Tripathi",
+        "designation": "Volunteer",
+        "image":"charity/team/nidhi.jpg"
     }
-
 ]
